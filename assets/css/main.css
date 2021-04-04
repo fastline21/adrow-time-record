@@ -1,0 +1,34 @@
+#employees .nav-item .nav-link {
+	background-color: #f2af00;
+	color: white;
+	margin-bottom: 5px;
+}
+
+.form {
+	padding-top: 5rem;
+}
+
+.submit {
+	background-color: #f2af00;
+	border-color: #f2af00;
+}
+
+.title,
+.time {
+	color: #333;
+	margin-bottom: 1rem;
+}
+
+.time-in-out {
+	margin-top: 10rem;
+}
+
+@print {
+	@page :footer {
+		display: none;
+	}
+
+	@page :header {
+		display: none;
+	}
+}
